@@ -1,0 +1,145 @@
+*{
+    font-family: Inter;
+}
+.pb-4{
+    box-shadow: 0 1px 0 0 #CBCBCB;
+}
+.mt-4 {
+    width: 65vw;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+nav .btn{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 160px;
+    height: 46px;
+}
+.navbar-brand button{
+    border-radius: 50%;
+    background-color: #2B8641;
+    border: 1px;
+    width: 14px;
+    height: 14px;
+    background-image: url('../IMG/2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 5px;
+}
+.rounded-circle{
+    width: 46px;
+    height: 46px;
+    background-color: #2B8641;
+    border-radius: 50%;
+    position: relative;
+    bottom: 250px;
+    right: 35px;
+    background-image: url('../IMG/Play.png');
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.text-success{
+    position: relative;
+    bottom: 285px;
+    left: 30px;
+}
+.rounded-pill{
+    padding: 7px 26px;
+}
+.box{
+    width: 464px;
+}
+.bold {
+    font-weight: 900;
+    font-size: 35px;
+}
+.bold1{
+    font-size: 35px;
+    font-weight: 200;
+}
+.box3{
+    width: 464px;
+}
+.form{
+    background-image: url('../IMG/blackgradient.png');
+    height: 838px;
+    padding-top: 150px;
+}
+
+.bold2{
+    font-weight: 600;
+    font-size: 24px;
+}
+.des p{
+    width: 70vw;
+}
+.box7{
+    width: 70vw;
+    height: 339px;  
+    margin: 50px auto;
+}
+.textbox{
+    width: 65vw;
+}
+.footertext{
+    width: 40vw;
+}
+.greytext{
+    color: #A2A2A2;
+}
+.container-fluid{
+    background-color: black;
+    height: 626px;
+    padding-top: 90px;
+}
+.info{
+    box-shadow: 0 -1px 0 0 #CBCBCB;
+    padding-top: 25px;
+}
+/* Media Querry For md , sm */
+@media only screen and (max-width: 1200px) {
+    .box , .box1 , .box2 , .box3 , .box4 , .box5{
+        margin: 0 auto;
+    }
+    .d-block{
+        margin: 0 auto;
+    }
+    footer{
+        text-align: center;
+    }
+    .footertext{
+        margin: 0 auto;
+    }
+    .container-fluid{
+        height: 100%;
+    }
+    p{
+        text-align: center  ;
+    }
+  }
+  /* Media Querry For lg , xl */
+  @media only screen and (min-width: 1200px){
+    .box{
+        position: relative;
+        left: 150px;
+        top: 25px;
+    }
+    .box4{
+        position: relative;
+        left: 70px;
+    }
+    .box5{
+        position: relative;
+        top: 50px;
+    }
+    .box6{
+        position: relative;
+        left: 150px;
+        top: 25px;
+    }
+  }
+    
